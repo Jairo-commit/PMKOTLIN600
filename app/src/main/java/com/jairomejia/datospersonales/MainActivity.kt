@@ -31,17 +31,6 @@ class MainActivity : AppCompatActivity() {
         val edtProfesion = findViewById<EditText?>(R.id.editTextProfesion)
         val edtNacionalidad = findViewById<EditText?>(R.id.editTextNacionalidad)
 
-        val txvNombre = findViewById<TextView?>(R.id.textViewNombre)
-        val txvApellido = findViewById<TextView?>(R.id.textViewApellido)
-        val txvDireccion = findViewById<TextView?>(R.id.textViewDireccion)
-        val txvTelefono = findViewById<TextView?>(R.id.textViewTelefono)
-        val txvCedula = findViewById<TextView?>(R.id.textViewCedula)
-        val txvCorreo = findViewById<TextView?>(R.id.textViewCorreo)
-        val txvEstrato = findViewById<TextView?>(R.id.textViewEstrato)
-        val txvEstadoCivil = findViewById<TextView?>(R.id.textViewEstadoCivil)
-        val txvProfesion = findViewById<TextView?>(R.id.textViewProfesion)
-        val txvNacionalidad = findViewById<TextView?>(R.id.textViewNacionalidad)
-
         val btnAceptar = findViewById<Button?>(R.id.buttonAceptar)
         btnAceptar.setOnClickListener(View.OnClickListener { v: View? ->
             edtNombre.setText("Carlos")
